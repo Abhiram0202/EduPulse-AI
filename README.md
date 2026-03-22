@@ -1,23 +1,23 @@
 # 🚀 EduPulse-AI
 
-## 📊 Educational Analytics System
+## 📊 Student Risk Prediction System
 
-EduPulse-AI is a data-driven system designed to analyze student performance and extract meaningful insights using Python.
+EduPulse-AI is a machine learning-based system that predicts student dropout risk using academic and attendance data.
 
 ---
 
 ## ✨ Features
-- Student performance analysis  
-- Data cleaning and preprocessing  
-- Pattern and trend identification  
-- Data visualization  
+- Predicts student dropout risk  
+- Data preprocessing and feature engineering  
+- Classification using Logistic Regression  
+- Risk categorization (High Risk / Low Risk)  
 
 ---
 
 ## 🛠️ Tech Stack
 - Python  
-- NumPy, Pandas, Matplotlib  
-- CSV Dataset  
+- Pandas  
+- Scikit-learn  
 
 ---
 
@@ -28,22 +28,26 @@ EduPulse-AI is a data-driven system designed to analyze student performance and 
 
 ---
 
-## ⚙️ How to Run
-1. Download or clone the repository  
-2. Open the project folder  
-3. Run `EduPulse_AI.ipynb` using Jupyter Notebook  
+## ⚙️ How it Works
+
+1. Load dataset using Pandas  
+2. Label students as "At Risk" based on attendance and marks  
+3. Train Logistic Regression model  
+4. Predict risk level for each student  
+5. Classify into:
+   - High Risk  
+   - Low Risk  
 
 ---
 
 ## 📊 Output
-- Processed dataset  
-- Graphs and visualizations  
-- Insights from student data  
+- Student-wise risk prediction  
+- Classification of students into risk categories  
 
 ---
 
 ## 🏆 Hackathon Project
-This project was developed during a hackathon.
+Developed during a hackathon to solve real-world student dropout prediction problem.
 
 ---
 
